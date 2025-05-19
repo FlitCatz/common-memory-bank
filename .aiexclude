@@ -1,0 +1,37 @@
+# Keys
+**/*.key
+**/*.kt
+**/credentials.json
+**/credentials.*.json
+**/secret.json
+**/secrets.json
+**/*.pem
+**/*.pfx
+**/*.p12
+**/*.crt
+**/*.cer
+**/id_rsa
+**/id_dsa
+**/.ssh/id_*
+
+# Dependencies
+.pnp
+.pnp.js
+
+# Build outputs
+/build/
+/dist/
+/.next/
+/out/
+
+# Environment variables
+**/.env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Large data files
+*.csv
+*.xlsx

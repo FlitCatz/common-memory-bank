@@ -109,6 +109,8 @@ project/
 - E2E tests cover key user scenarios
 
 ### 6.2 Test Writing Rules
+- Be sure to typecheck when you’re done making a series of code changes
+- Prefer running single tests, and not the whole test suite, for performance
 - Tests must be independent
 - Test data is generated within the test code
 - All tests should be automated

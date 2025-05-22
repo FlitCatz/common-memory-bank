@@ -16,7 +16,6 @@ flowchart TD
     SP --> AC
     TC --> AC
     
-    AC --> P[progress.md]
     PB & PC & SP & TC --> PRD[prd.txt]
 ```
 
@@ -50,11 +49,6 @@ flowchart TD
    - Technical constraints
    - Dependencies
 
-6. `progress.md`
-   - What works
-   - What's left to build
-   - Current status
-   - Known issues
 
 ### Additional Context
 Create additional files/folders within memory-bank/ when they help organize:
@@ -71,18 +65,13 @@ When Taskmaster Tool (MCP or `task-master` CLI commands) is used, Taskmaster Too
 When changing the task status, the following steps must be performed:
 
 1. Change the task status with Taskmaster command (e.g. `set_task_status`)
-2. Update `progress.md` file
-   - If the status changed to "done", add to "Completed Tasks" section
-   - If the status changed to "in-progress", add to "Work in progress" section
-   - If the status changed to "pending", add to "Pending Tasks" section
-3. Update `activeContext.md` file
+2. Update `activeContext.md` file
    - Reflect the current task focus change
    - Update the next steps and considerations
 
 ### Synchronization Checklist
 After any task-related operation, always check the following items:
 - [ ] Has the task status in Taskmaster changed correctly?
-- [ ] Has the corresponding change been reflected in `progress.md`?
 - [ ] Is the current focus of the task updated in `activeContext.md`?
 - [ ] If there is a change in the dependency between tasks, is it reflected in the document?
 
@@ -91,8 +80,7 @@ Every time you start or end a work session, check that the state of the Taskmast
 ```bash
 # Check task status
 task-master list
-
-# Check consistency by comparing progress.md and activeContext.md
+# Check consistency by comparing activeContext.md
 ```
 
 ## Core Workflows
@@ -131,7 +119,7 @@ Memory Bank updates occur when:
 2. After implementing significant changes
 3. When user requests with **update memory bank** (MUST review ALL files)
 4. When context needs clarification
-5. **When task status changes in Taskmaster** (Be sure to update progress.md and activeContext.md)
+5. **When task status changes in Taskmaster** (Be sure to update activeContext.md)
 
 ```mermaid
 flowchart TD
@@ -150,7 +138,7 @@ flowchart TD
     Start --> Process
 ```
 
-Note: When triggered by **update memory bank**, I MUST review every memory bank file, even if some don't require updates. Focus particularly on activeContext.md and progress.md as they track current state.
+Note: When triggered by **update memory bank**, I MUST review every memory bank file, even if some don't require updates. Focus particularly on activeContext.md as it tracks current state.
 
 ## Project Intelligence (.clinerules)
 

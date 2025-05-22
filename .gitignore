@@ -48,6 +48,9 @@ out/
 .env.development.local
 .env.test.local
 .env.production.local
+.env.*
+!.env.example
+**/.sec/
 
 # Added by Claude Task Master
 # Editor directories and files
@@ -62,3 +65,6 @@ out/
 # Task files
 tasks.json
 tasks/
+
+# Local settings
+**/.claude/settings.local.json

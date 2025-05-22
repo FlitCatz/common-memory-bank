@@ -1,6 +1,6 @@
 # Common Memory Bank
 
-A collection of integrated memory bank rules for AI development tools. This repository provides memory bank rule files that can be used in various AI development tools such as Cursor, Windsurf, Cline, RooCode, etc.
+A collection of integrated memory bank rules for AI development tools. This repository provides memory bank rule files that can be used in various AI development tools such as Cursor, Windsurf, Cline, RooCode, Claude Code etc.
 It was specifically written for the purpose of applying memory bank while using **[TaskMaster AI](https://github.com/eyaltoledano/claude-task-master)**.
 
 #### Created by [@shalomeir](https://x.com/shalomeir) at [Snippod Inc](https://hello.snippod.com/).

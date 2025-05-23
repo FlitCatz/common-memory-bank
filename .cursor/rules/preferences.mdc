@@ -91,6 +91,8 @@ project/
 ## 5. Security
 
 ### 5.1 Basic rules
+- Never put security token or security key values in your code.
+- Never expose security token and security key values to clients.
 - Update all dependencies regularly
 - Run security vulnerability scans regularly
 - Use validated libraries for authentication/authorization

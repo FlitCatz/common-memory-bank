@@ -51,6 +51,7 @@ out/
 .env.*
 !.env.example
 **/.sec/
+.history/**/*
 
 # Added by Claude Task Master
 # Editor directories and files
@@ -68,3 +69,4 @@ tasks/
 
 # Local settings
 **/.claude/settings.local.json
+./CLAUDE.local.md

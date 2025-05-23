@@ -83,6 +83,8 @@ project/
 ## 5. Security
 
 ### 5.1 Basic rules
+- Never put security token or security key values in your code.
+- Never expose security token and security key values to clients.
 - Update all dependencies regularly
 - Run security vulnerability scans regularly
 - Use validated libraries for authentication/authorization
@@ -470,3 +472,24 @@ Related files:
 - Remove the path from rule_list.txt
 
 With this system, the AI ​​coding assistant can always automatically refer to special rules related to the path of the file you are working on, and generate and modify code while being aware of the special context of each folder.
+
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Technology Stack, Project Architecture, Environment Setup, etc. refer to the updated contents in the memory bank as much as possible.
+
+ALSO VERY IMPORTANT:
+Please explain to the users in Korean.
+설명은 한국어로 대답하세요.
+
+## Deployment and Development Environment Notes
+
+### Development Environment
+- The `npm run dev` command cannot be run directly from the internal environment
+- User must run it directly to work properly in the browser
+- Browsertools mcp allows you to check browser devtools' console logs, network, etc.
+- This allows for debugging and troubleshooting
+
+### Environment Variables
+- .env and .env.local is not accessible to LLM due to .gitignore, .aiexclude, etc. but if there is .env.example, it is likely to be set up normally.
+- - Assume that .env and .env.local already exists. For template see .env.example. This is an LLM AI inaccessible file, but since it's in env, it can be converted to a variable at runtime

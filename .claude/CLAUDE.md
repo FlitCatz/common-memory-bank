@@ -470,11 +470,3 @@ Related files:
 - Remove the path from rule_list.txt
 
 With this system, the AI ​​coding assistant can always automatically refer to special rules related to the path of the file you are working on, and generate and modify code while being aware of the special context of each folder.
-
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-Technology Stack, Project Architecture, Environment Setup, etc. refer to the updated contents in the memory bank as much as possible.
-
-#Additional Rules for project below
-

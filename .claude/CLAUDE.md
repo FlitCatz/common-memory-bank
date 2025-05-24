@@ -489,7 +489,3 @@ Please explain to the users in Korean.
 - User must run it directly to work properly in the browser
 - Browsertools mcp allows you to check browser devtools' console logs, network, etc.
 - This allows for debugging and troubleshooting
-
-### Environment Variables
-- .env and .env.local is not accessible to LLM due to .gitignore, .aiexclude, etc. but if there is .env.example, it is likely to be set up normally.
-- - Assume that .env and .env.local already exists. For template see .env.example. This is an LLM AI inaccessible file, but since it's in env, it can be converted to a variable at runtime

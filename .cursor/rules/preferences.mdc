@@ -103,6 +103,11 @@ project/
 - Do not include sensitive information in logs
 - Perform thorough input validation
 
+### 5.3 Environment Variables
+- .env and .env.local is not accessible to LLM due to .gitignore, .aiexclude, etc. but if there is .env.example, it is likely to be set up normally.
+- Assume that .env and .env.local already exists. For template see .env.example. This is an LLM AI inaccessible file, but since it's in env, it can be converted to a variable at runtime
+
+
 ## 6. Test
 
 ### 6.1 Testing Requirements

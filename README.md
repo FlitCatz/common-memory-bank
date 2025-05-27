@@ -127,6 +127,31 @@ It creates, manages, and references the context needed during the implementation
 Prompts for general development quality improvement.
 Feel free to modify this to your liking!
 
+## Claude Code Commands
+
+When using Claude Code, you can leverage the parallel task execution commands for enhanced development workflows:
+
+### Parallel Worktree Setup
+```bash
+project:init-parallel <FEATURE_NAME> <NUMBER_OF_WORKTREES>
+```
+Initializes multiple Git worktrees for parallel development. Creates separate workspace directories for concurrent feature development.
+
+Example:
+```bash
+project:init-parallel auth-feature 3
+```
+
+### Parallel Task Execution
+```bash
+project:exe-parallel <PLAN_TO_EXECUTE> <NUMBER_OF_PARALLEL_WORKTREES>
+```
+Executes parallel development tasks across multiple worktrees, enabling concurrent feature implementation and comparison.
+
+These commands utilize the files:
+- `.claude/commands/init-parallel.md` - Worktree initialization command
+- `.claude/commands/exe-parallel.md` - Parallel execution command
+
 
 ## License
 None. Feel free to use it.

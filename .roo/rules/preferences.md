@@ -116,6 +116,13 @@ project/
 - Test data is generated within the test code
 - All tests should be automated
 
+### 6.3 Applying Tests
+- When developing a web app or React Native app, we start with a test-driven development approach using Jest + React or React Native Testing Library as a minimum
+- If you're using python, we default to a test-driven approach with pytest
+- If you are specifically instructed to do so, you should always start with test-driven development
+- When you start test-driven development, you write tests by default for functions with pure logic, such as utility functions and hook functions, for functions with complex logic, and for edge cases.
+- As your project grows in size and complexity, you write tests for classes or components that are already developed but need to be modified frequently.
+
 ## 7. Performance
 
 ### 7.1 Optimization Criteria

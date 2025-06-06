@@ -123,6 +123,11 @@ project/
 - When you start test-driven development, you write tests by default for functions with pure logic, such as utility functions and hook functions, for functions with complex logic, and for edge cases.
 - As your project grows in size and complexity, you write tests for classes or components that are already developed but need to be modified frequently.
 
+### 6.4 Local Test Server
+- Once you run a local server for testing, it usually stays up. Therefore, do not try to restart the local server repeatedly
+- If the environment supports HMR (Hot Module Replacement) and Hot Reloading, any file modifications will already be reflected on the screen, so test with this in mind
+
+
 ## 7. Performance
 
 ### 7.1 Optimization Criteria

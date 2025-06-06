@@ -122,10 +122,13 @@ It creates, manages, and references the context needed during the implementation
    Summarize the current work and save it as a subrule.
    ```
 
-
 ### [`preferences`](./.roo/rules/preferences.md)
 Prompts for general development quality improvement.
 Feel free to modify this to your liking!
+
+### [`role_playing`](./.roo/rules/role_playing.md)
+Role-based System: AI assumes AI agents with roles such as Product Manager, Design Engineer, FullStack Developer, Devops Engineer, and QA Engineer.
+
 
 ## Claude Code Commands
 

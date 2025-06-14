@@ -176,3 +176,4 @@ project/
 - Documenting changes
 - Modernize API documentation
 - Maintain troubleshooting guides
+- Use time mcp when you need the current time, such as adding the last update time of activeContext

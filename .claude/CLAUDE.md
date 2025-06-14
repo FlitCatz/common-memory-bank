@@ -164,6 +164,7 @@ project/
 - Documenting changes
 - Modernize API documentation
 - Maintain troubleshooting guides
+- Use time mcp when you need the current time, such as adding the last update time of activeContext
 
 # Memory Bank Rule
 AI has the characteristic of resetting its memory between sessions. With each reset, I rely on the memory bank and what is organized in it to understand the project and continue working effectively. Therefore, I must read all memory bank files at the start of every job, which is not optional.

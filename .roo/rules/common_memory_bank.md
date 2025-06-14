@@ -37,6 +37,7 @@ flowchart TD
    - Recent changes
    - Next steps
    - Active decisions and considerations
+
 4. `systemPatterns.md`
    - System architecture
    - Key technical decisions

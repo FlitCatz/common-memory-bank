@@ -117,7 +117,7 @@ project/
 - As your project grows in size and complexity, you write tests for classes or components that are already developed but need to be modified frequently.
 
 ### 6.4 Local Test Server
-- Once you run a local server for testing, it usually stays up. Therefore, do not try to restart the local server repeatedly
+- Once you run a local server for testing, it usually stays up. Don't start local server automatically unless I tell it to (ex: npm run dev, python manage.py runserver)
 - If the environment supports HMR (Hot Module Replacement) and Hot Reloading, any file modifications will already be reflected on the screen, so test with this in mind
 
 

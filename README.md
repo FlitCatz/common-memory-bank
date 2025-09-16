@@ -1,15 +1,20 @@
 # Common Memory Bank
 
 A collection of integrated memory bank rules for AI development tools. This repository provides memory bank rule files that can be used in various AI development tools such as Cursor, Windsurf, Cline, RooCode, Claude Code etc.
+AI 개발 도구를 위한 통합 메모리 뱅크 규칙 모음입니다. 이 리포지토리는 커서, 윈드서프, 클라인, 루코드, 클로드 코드 등 다양한 AI 개발 도구에서 사용할 수 있는 메모리 뱅크 규칙 파일을 제공합니다.
+
 It was specifically written for the purpose of applying memory bank while using **[TaskMaster AI](https://github.com/eyaltoledano/claude-task-master)**.
+**[TaskMaster AI](https://github.com/eyaltoledano/claude-task-master)**를 사용하면서 메모리 뱅크를 적용하기 위한 목적으로 특별히 작성되었습니다.
 
 #### Created by [@shalomeir](https://x.com/shalomeir) at [Snippod Inc](https://hello.snippod.com/).
 
 ## Overview
 
 Inspired by the [Cline Memory Bank](https://docs.cline.bot/prompting/cline-memory-bank), this project provides a rule file to help maintain context in a consistent way across different AI development tools. 
-In particular, it is designed to allow projects using [TaskMaster AI](https://github.com/eyaltoledano/claude-task-master) to work seamlessly with both the memory bank and `task-master` at the same time.
+클라인 메모리 뱅크](https://docs.cline.bot/prompting/cline-memory-bank)에서 영감을 얻은 이 프로젝트는 다양한 AI 개발 도구에서 일관된 방식으로 컨텍스트를 유지하는 데 도움이 되는 규칙 파일을 제공합니다.
 
+In particular, it is designed to allow projects using [TaskMaster AI](https://github.com/eyaltoledano/claude-task-master) to work seamlessly with both the memory bank and `task-master` at the same time.
+특히, [태스크마스터 AI](https://github.com/eyaltoledano/claude-task-master)를 사용하는 프로젝트가 메모리 뱅크와 '태스크마스터'를 동시에 원활하게 사용할 수 있도록 설계되었습니다.
 
 ## How to use [`common_memory_bank`](./.roo/rules/common_memory_bank.md) rules
 
@@ -21,6 +26,11 @@ In particular, it is designed to allow projects using [TaskMaster AI](https://gi
 4. Apply the rule files to the AI Agent tool.
 5. Follow the guide below to start [Taskmaster](https://github.com/eyaltoledano/claude-task-master).
 
+1. 이 저장소에서 사용하려는 AI 도구의 규칙 파일 또는 폴더를 다운로드합니다.
+2. 해당 파일을 해당 도구의 규칙 폴더(`.cursor/rules` 또는 `.roo/rules`)에 추가합니다.
+3. 프로젝트에 `memory-bank/` 폴더를 생성합니다.
+4. AI 에이전트 도구에 규칙 파일을 적용합니다.
+5. 5. 아래 가이드에 따라 [태스크마스터](https://github.com/eyaltoledano/claude-task-master)를 시작합니다.
 
 ### Tool-specific application methods
 

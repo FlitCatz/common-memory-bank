@@ -1,6 +1,6 @@
 # Common Memory Bank
 
-[Cline site 원본](https://docs.cline.bot/prompting/cline-memory-bank)
+[Cline site](https://docs.cline.bot/prompting/cline-memory-bank)
 
 AI 개발 도구를 위한 통합 Memory Bank 규칙 모음입니다. 이 Repository 는 Cursor, Windsurf, Cline, RooCode, Claude Code 등 다양한 AI 개발 도구에서 사용할 수 있는 Memory Bank 규칙 파일을 제공합니다.
 

@@ -1,5 +1,7 @@
 # Common Memory Bank
 
+[Cline site 원본](https://docs.cline.bot/prompting/cline-memory-bank)
+
 AI 개발 도구를 위한 통합 Memory Bank 규칙 모음입니다. 이 Repository 는 Cursor, Windsurf, Cline, RooCode, Claude Code 등 다양한 AI 개발 도구에서 사용할 수 있는 Memory Bank 규칙 파일을 제공합니다.
 
 **[TaskMaster AI](https://github.com/eyaltoledano/claude-task-master)** 를 사용하면서 Memory Bank 를 적용하기 위한 목적으로 특별히 작성되었습니다.

@@ -71,25 +71,17 @@ TaskMaster AI를 사용하는 프로젝트에서는 다음과 같이 설정합�
    ```
    - #OPTION 2: 개발하고자 하는 프로젝트 요구사항을 Agent와 대화하여 프로젝트를 생성합니다.
    ```
-   계획 모드로 전환하여 프로젝트 개발을 시작하겠습니다. 메모리 뱅크를 초기화합니다. 그리고 어떤 종류의 프로젝트인지 이야기해 봅시다. 아이디어에 따라 메모리 뱅크에 반영해 주세요. 제 아이디어는 다음과 같습니다: {그리고 무엇을 만들 것인지, 목적, 대상 등을 설명하세요...}
+   계획 모드로 전환하여 프로젝트 개발을 시작하겠습니다.
+   메모리 뱅크를 초기화합니다. 그리고 어떤 종류의 프로젝트인지 이야기해 봅시다.
+   아이디어에 따라 메모리 뱅크에 반영해 주세요.
+   제 아이디어는 다음과 같습니다: {그리고 무엇을 만들 것인지, 목적, 대상 등을 설명하세요...}
    ```
    - #OPTION 3: 양식에 따라 직접 작성...
    ```
    계획 모드로 전환하고 메모리뱅크 초기화 프로세스를 위한 파일 양식을 작성합니다. 간단한 예제가 있으면 좋습니다.
    ```
 
-4. Ask Taskmaster to parse the PRD.
-   > First, it asks the agent to create `scripts/prd.txt` based on the memory-bank if it hasn't already been created.
-
-   - OPTION 1: Use prompts
-   ```
-   Please use the task-master parse-prd command to generate tasks from my PRD. The PRD is located at scripts/prd.txt.
-   ```
-   - OPTION 2: `task-master` CLI
-   ```bash
-   task-master parse-prd scripts/prd.txt
-   ```
-   태스크마스터에게 PRD를 파싱하도록 요청합니다.
+3. 태스크마스터에게 PRD를 파싱하도록 요청합니다.
    > 먼저 아직 만들어지지 않은 경우 Memory Bank에 따라 `scripts/prd.txt`를 만들도록 에이전트에게 요청합니다.
    
    - OPTION 1: 프롬프트 사용
@@ -101,7 +93,7 @@ TaskMaster AI를 사용하는 프로젝트에서는 다음과 같이 설정합�
    task-master parse-prd scripts/prd.txt
    ```
 
-5. 작업 마스터를 위한 작업 파일을 만듭니다.
+4. 작업 마스터를 위한 작업 파일을 만듭니다.
 
    - 옵션1: 프롬프트 사용
    ```

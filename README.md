@@ -1,16 +1,16 @@
 # Common Memory Bank
 
-AI 개발 도구를 위한 통합 메모리 뱅크 규칙 모음입니다. 이 리포지토리는 커서, 윈드서프, 클라인, 루코드, 클로드 코드 등 다양한 AI 개발 도구에서 사용할 수 있는 메모리 뱅크 규칙 파일을 제공합니다.
+AI 개발 도구를 위한 통합 Memory Bank 규칙 모음입니다. 이 Repository 는 Cursor, Windsurf, Cline, RooCode, Claude Code 등 다양한 AI 개발 도구에서 사용할 수 있는 Memory Bank 규칙 파일을 제공합니다.
 
-**[TaskMaster AI](https://github.com/eyaltoledano/claude-task-master)**를 사용하면서 메모리 뱅크를 적용하기 위한 목적으로 특별히 작성되었습니다.
+**[TaskMaster AI](https://github.com/eyaltoledano/claude-task-master)** 를 사용하면서 Memory Bank 를 적용하기 위한 목적으로 특별히 작성되었습니다.
 
 #### Created by [@shalomeir](https://x.com/shalomeir) at [Snippod Inc](https://hello.snippod.com/).
 
 ## Overview
 
-[Cline Memory Bank](https://docs.cline.bot/prompting/cline-memory-bank)에서 영감을 얻은 이 프로젝트는 다양한 AI 개발 도구에서 일관된 방식으로 컨텍스트를 유지하는 데 도움이 되는 규칙 파일을 제공합니다.
+[Cline Memory Bank](https://docs.cline.bot/prompting/cline-memory-bank) 에서 영감을 얻은 이 프로젝트는 다양한 AI 개발 도구에서 일관된 방식으로 컨텍스트를 유지하는 데 도움이 되는 규칙 파일을 제공합니다.
 
-특히, [TaskMaster AI](https://github.com/eyaltoledano/claude-task-master)를 사용하는 프로젝트가 Memory Bank와 'TaskMaster'를 동시에 원활하게 사용할 수 있도록 설계되었습니다.
+특히, [TaskMaster AI](https://github.com/eyaltoledano/claude-task-master) 를 사용하는 프로젝트가 Memory Bank와 TaskMaster 를 동시에 원활하게 사용할 수 있도록 설계되었습니다.
 
 ## How to use [`common_memory_bank`](./.cursor/rules/common_memory_bank.md) rules
 
